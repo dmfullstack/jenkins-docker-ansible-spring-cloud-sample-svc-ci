@@ -1,0 +1,6 @@
+- hosts: sample-spring-cloud-svc-ci
+  remote_user: vagrant
+  sudo: yes
+  roles:
+    - docker
+    - sample-spring-cloud-svc-ci
